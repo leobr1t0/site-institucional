@@ -22,6 +22,16 @@ body{
     justify-content: space-between;
 }
 
+.header ul .aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+a {
+    text-decoration: none;
+    color: #e3b062;
+}
+
 .navbar{
     display: flex;
     width: 600px;
