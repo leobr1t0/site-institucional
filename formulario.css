@@ -15,6 +15,10 @@
     font-size: 30px;
 }
 
+.caixaFormulario span {
+    font-size: 15px;
+}
+
 .formulario {
     display: flex;
     flex-direction: column;
@@ -40,4 +44,8 @@
     border-radius: 10px;
 
     padding: 10px 15px;
+}
+
+.cadastro {
+    height: 400px;
 }

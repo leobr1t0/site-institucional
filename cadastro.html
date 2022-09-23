@@ -8,7 +8,6 @@
     <title>Login</title>
     <link rel="stylesheet" href="Estilos.css">
     <link rel="stylesheet" href="formulario.css">
-
 </head>
 
 <body>
@@ -19,23 +18,25 @@
                 <li><a href="Index.html">Home</a></li>
                 <li>Simulador</li>
                 <li>|</li>
-                <li class="aqui">Login</li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="aqui">Cadastro</li>
             </ul>
         </div>
     </div>
     <div class="banner">
         <div class="container">
-            <div class="caixaFormulario">
-                <h1>Olá de volta!</h1>
+            <div class="caixaFormulario cadastro">
+                <h1>Bem-vindo!</h1>
                 <div class="formulario">
+                    <span>Nome:</span>
+                    <input type="text" placeholder="Seu nome">
                     <span>E-mail:</span>
-                    <input id="iptEmail" type="email" placeholder="Seu email">
-
+                    <input type="email" placeholder="exemplo@exemplo.com">
                     <span>Senha:</span>
-                    <input id="iptSenha" type="password" placeholder="******">
-
-                    <button>Entrar</button>
+                    <input type="password" placeholder="******">
+                    <span>Confirmação de senha:</span>
+                    <input type="password" placeholder="******">
+                    <button>Cadastrar</button>
                 </div>
             </div>
         </div>
