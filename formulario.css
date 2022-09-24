@@ -17,6 +17,7 @@
 
 .caixaFormulario span {
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .formulario {
@@ -47,5 +48,5 @@
 }
 
 .cadastro {
-    height: 400px;
+    height: 450px;
 }
